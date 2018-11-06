@@ -5,10 +5,14 @@ All necessary Routes, APIs and Validations are done.
 
 ## Latest Edits
 
-Session 7 edits:
-UI for Login and Register pages are done. Register page works with backend when axios is used. 
+Session 7.5 edits:
+Redux Store configurations. Registration page's functionality & actions update. Registration page's Error handling. Registration page and its functionalities are connected to the backend with redux, thunk & axios.
 
 Past edits:
+Session 7 edits:
+UI for Login and Registration page is done. Registration page works with backend when axios is used.
+
+Past Sessions:
 Models/Schemas for Profile, User & Post have been made.
 Users, Profile & Posts's Public & Private routes have been made.
 Next validations have been made: education, expreience, is-empty, login, post, profile & register
