@@ -209,7 +209,7 @@ router.delete(
           .map(item => item._id.toString())
           .indexOf(req.params.comment_id);
 
-        // Splice commennet out of array
+        // Splice comment out of array
         post.comments.splice(removeIndex, 1);
 
         post.save().then(post => res.json(post));
