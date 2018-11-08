@@ -15,7 +15,7 @@ Modified components: Login.js, Register.js, Navbar.js
 Modified actions: types.js
 Modified reducers: index.js
 
-Past edits:
+## Past edits:
 
 Session 7.5 edits:
 Redux Store configurations. Registration page's functionality & actions update. Registration page's Error handling. Registration page and its functionalities are connected to the backend with redux, thunk & axios.
