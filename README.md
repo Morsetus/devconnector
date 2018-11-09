@@ -5,6 +5,20 @@ All necessary Routes, APIs and Validations are done.
 
 ## Latest Edits
 
+Session 9 edits:
+Client dependencies updated.
+
+Created components: add-credentials/AddEducation.js & AddExperience.js.
+dashboard/Education.js, Experience.js & ProfileActions.js. edit-profile/EditProfile.js.
+
+Modifications:
+App.js, Root README.md
+
+Modified components: dashboard/Dashboard.js. layout/Navbar.js
+Modified actions: profileActions.js
+
+## Past edits:
+
 Session 8 edits:
 Created components: common/InputGroup, Spinner, PrivateRoute, SelectListGroup, TextAreaFieldGroup,TextFieldGroup, create-profile/CreateProfile, dashboard/Dasboard.
 
@@ -14,8 +28,6 @@ App.js, Root README.md
 Modified components: Login.js, Register.js, Navbar.js
 Modified actions: types.js
 Modified reducers: index.js
-
-## Past edits:
 
 Session 7.5 edits:
 Redux Store configurations. Registration page's functionality & actions update. Registration page's Error handling. Registration page and its functionalities are connected to the backend with redux, thunk & axios.
