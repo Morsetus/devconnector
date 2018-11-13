@@ -105,10 +105,10 @@ class CreateProfile extends Component {
       skills: this.state.skills,
       githubusername: this.state.githubusername,
       bio: this.state.bio,
+      youtube: this.state.youtube,
       twitter: this.state.twitter,
       facebook: this.state.facebook,
       linkedin: this.state.linkedin,
-      youtube: this.state.youtube,
       instagram: this.state.instagram
     };
 
@@ -127,6 +127,15 @@ class CreateProfile extends Component {
     if (displaySocialInputs) {
       socialInputs = (
         <div>
+          <InputGroup
+            placeholder="Youtube Channel URL"
+            name="youtube"
+            icon="fab fa-youtube"
+            value={this.state.youtube}
+            onChange={this.onChange}
+            error={errors.youtube}
+          />
+
           <InputGroup
             placeholder="Twitter Profile URL"
             name="twitter"
@@ -152,15 +161,6 @@ class CreateProfile extends Component {
             value={this.state.linkedin}
             onChange={this.onChange}
             error={errors.linkedin}
-          />
-
-          <InputGroup
-            placeholder="Youtube Channel URL"
-            name="youtube"
-            icon="fab fa-youtube"
-            value={this.state.youtube}
-            onChange={this.onChange}
-            error={errors.youtube}
           />
 
           <InputGroup

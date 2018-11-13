@@ -104,7 +104,7 @@ const ProfileSchema = new Schema({
     facebook: {
       type: String
     },
-    linkdin: {
+    linkedin: {
       type: String
     },
     instagram: {

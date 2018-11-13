@@ -5,6 +5,27 @@ All necessary Routes, APIs and Validations are done.
 
 ## Latest Edits
 
+Session 10 edits:
+
+Created components: not-found/NotFound.js. post/CommentFeed.js, CommentForm.js, CommentItem.js, Post.js. posts/PostFeed.js, PostForm.js, PostItem.js, Posts.js. profile/Profile.js, ProfileAbout.js, ProfileCreds.js, ProfileGithub.js, ProfileHeader.js. profiles/ProfileItem.js, Profile.js.
+
+Created reducers: postReducer.js
+Created Actions: postActions.js
+
+Modifications:
+
+Root:
+Profile.js
+
+Client:
+App.js, Root README.md
+
+Modified components: edit-profile/EditProfile.js. layout/Navbar.js
+Modified actions: profileActions.js, types.js
+Modified reducers: errorReducers.js, index.js, profileReducer.js
+
+## Past edits:
+
 Session 9 edits:
 Client dependencies updated.
 
@@ -16,8 +37,6 @@ App.js, Root README.md
 
 Modified components: dashboard/Dashboard.js. layout/Navbar.js
 Modified actions: profileActions.js
-
-## Past edits:
 
 Session 8 edits:
 Created components: common/InputGroup, Spinner, PrivateRoute, SelectListGroup, TextAreaFieldGroup,TextFieldGroup, create-profile/CreateProfile, dashboard/Dasboard.
